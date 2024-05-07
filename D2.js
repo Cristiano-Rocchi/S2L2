@@ -65,7 +65,7 @@ if (numIntero1 === 8 || numIntero2 === 8) {
 */
 
 /*
-const totalShoppingCart = 32;  //saldo carrello
+const totalShoppingCart = 35;  //saldo carrello
 const shipmentCost = (totalShoppingCart * 10) / 100;  //costo spedizione
 if (totalShoppingCart > 50) {
   console.log("la spedizione è gratuita");
@@ -86,7 +86,24 @@ if (totalShoppingCart > 50) {
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* 
+const totalShoppingCart = 35; //saldo carrello
+const blackFridaySale = (totalShoppingCart * 20) / 100;
+const totalShoppingCartBlackFryday = totalShoppingCart - blackFridaySale;
+const shipmentCost = (totalShoppingCartBlackFryday * 10) / 100; //costo spedizione
+if (totalShoppingCartBlackFryday > 50) {
+  console.log("la spedizione è gratuita");
+} else {
+  console.log(
+    "costo spedizione: ",
+    shipmentCost,
+    "€",
+    " quindi il costo totale è: ",
+    totalShoppingCartBlackFryday + shipmentCost,
+    "€"
+  );
+}
+ */
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -94,7 +111,28 @@ if (totalShoppingCart > 50) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+ const firstNumb = 120;
+const secondNumb = 75;
+const thirdNumb = 50;
+if (firstNumb < secondNumb && secondNumb < thirdNumb) {
+  console.log(firstNumb, secondNumb, thirdNumb);
+}
+if (firstNumb < thirdNumb && thirdNumb < secondNumb) {
+  console.log(firstNumb, thirdNumb, secondNumb);
+}
+if (secondNumb < firstNumb && firstNumb < thirdNumb) {
+  console.log(secondNumb, firstNumb, thirdNumb);
+}
+if (secondNumb < thirdNumb && thirdNumb < firstNumb) {
+  console.log(secondNumb, thirdNumb, firstNumb);
+}
+if (thirdNumb < secondNumb && secondNumb < firstNumb) {
+  console.log(thirdNumb, secondNumb, firstNumb);
+}
+if (thirdNumb < firstNumb && firstNumb < secondNumb) {
+  console.log(thirdNumb, firstNumb, secondNumb);
+} */
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
