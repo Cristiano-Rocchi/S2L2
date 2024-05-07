@@ -138,13 +138,24 @@ if (thirdNumb < firstNumb && firstNumb < secondNumb) {
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* const valoreFornito = "sto a sbroccà";
+if (isNaN(valoreFornito)) {
+  console.log("il valore fonito non è numerico");
+} else {
+  console.log("il valore fornito è numerico");
+} */
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const valoreFornito = "sto a sbroccà";
+if (isNaN(valoreFornito)) {
+  console.log("il valore fonito non è numerico");
+} else {
+  console.log("il valore fornito è numerico");
+} */
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
