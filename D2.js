@@ -15,13 +15,25 @@ if (numIntero1 > numIntero2) {
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+ const numIntero = 30;
+if (numIntero != 5) {
+  console.log("not equal");
+} 
+*/
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const numeroFornito = 1955;
+const risultato = numeroFornito % 5;
+if (risultato === 0) {
+  console.log("divisibile per 5");
+} else {
+  console.log("non divisibile per 5");
+} */
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
