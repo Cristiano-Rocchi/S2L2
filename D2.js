@@ -176,7 +176,8 @@ if (val < 10 && val >= 5) {
   console.log("Meno di 5");
 } else {
   console.log("Uguale a 10 o maggiore");
-} */
+}
+ */
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
@@ -188,7 +189,15 @@ const me = {
   skills: ["javascript", "html", "css"],
 };
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+ const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+me.city = "Toronto";
+console.log(me);
+ */
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
