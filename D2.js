@@ -239,4 +239,8 @@ console.log(array); */
   /* Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+array.pop();
+array.push("100");
+console.log(array); */
