@@ -39,7 +39,24 @@ if (risultato === 0) {
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const numIntero1 = 10;
+const numIntero2 = 2;
+const risultatoAddizione = numIntero1 + numIntero2;
+const risultatoSottrazione1 = numIntero1 - numIntero2;
+const risultatoSottrazione2 = numIntero2 - numIntero1;
+if (numIntero1 === 8 || numIntero2 === 8) {
+  console.log("si");
+} else if (risultatoAddizione === 8) {
+  console.log("si");
+} else if (risultatoSottrazione1 === 8) {
+  console.log("si");
+} else if (risultatoSottrazione2 === 8) {
+  console.log("si");
+} else {
+  console.log("no");
+}
+ */
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -47,7 +64,22 @@ if (risultato === 0) {
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const totalShoppingCart = 32;  //saldo carrello
+const shipmentCost = (totalShoppingCart * 10) / 100;  //costo spedizione
+if (totalShoppingCart > 50) {
+  console.log("la spedizione è gratuita");
+} else {
+  console.log(
+    "costo spedizione: ",
+    shipmentCost,
+    "€",
+    " quindi il costo totale è: ",
+    totalShoppingCart + shipmentCost,
+    "€"
+  );
+}
+ */
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
